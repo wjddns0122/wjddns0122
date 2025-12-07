@@ -1,50 +1,38 @@
-<!-- =========================
-     PROFILE README TEMPLATE
-     Dark, clean, minimal vibe
-========================= -->
+# 👋 Hi, I'm wjddns0122
 
-<h1 align="left">wjddns0122</h1>
-<p align="left">
-  <b>Algorithms • Web • Backend</b><br/>
-  Quietly building useful things.
-</p>
+A developer based in Seoul, South Korea 🇰🇷.  
+I’m building steadily, solving consistently.
 
----
+## 🛠️ Tech Stack
 
-## Links
-- **Velog**: https://velog.io/@wjddns0122/posts  
-- **BOJ**: https://solved.ac/jungwoon2004  
+<div>
+  <img src="https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-111111?style=flat-square&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-111111?style=flat-square&logo=css3&logoColor=white"/>
+</div>
 
----
+<div>
+  <img src="https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-111111?style=flat-square&logo=githubactions&logoColor=white"/>
+</div>
 
-## Now
-- Studying algorithms & problem solving
-- Practicing clean backend patterns
-- Building small, shippable projects
+## 📈 GitHub Overview
 
----
-
-## Tech Stack
-**Languages**
-- Python
-- JavaScript
-- C/C++
-
-**Tools**
-- Git / GitHub
-- VS Code
-
----
-
-## GitHub Overview
-<!-- GitHub Readme Stats (Dark) -->
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wjddns0122&show_icons=true&theme=tokyonight&hide_border=true)
-
-<!-- Top Languages -->
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wjddns0122&layout=compact&theme=tokyonight&hide_border=true)
 
----
+## 🧩 Competitive Programming
 
-## Problem Solving
 [![Solved.ac Profile](https://mazassumnida.wtf/api/generate_badge?boj=jungwoon2004)](https://solved.ac/jungwoon2004)
 
+## ✏️ Contacts
+
+<div>
+  <a href="https://github.com/wjddns0122">
+    <img src="https://img.shields.io/badge/github-111111?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://velog.io/@wjddns0122/posts">
+    <img src="https://img.shields.io/badge/velog-111111?style=for-the-badge&logo=velog&logoColor=white"/>
+  </a>
+</div>
