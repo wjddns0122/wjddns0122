@@ -1,19 +1,22 @@
-## Velog👏
+# wjddns0122
 
-[Tech Blog](https://velog.io/@wjddns0122/posts)
+> Algorithms • Web • Backend  
+> Building steadily, solving consistently.
 
-![Tech Blog Badge](https://img.shields.io/badge/Tech%20Blog-555263?style=flat&logo=velog&logoColor=white)
+## Links
+- Velog: https://velog.io/@wjddns0122/posts
+- Solved.ac: https://solved.ac/jungwoon2004
 
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fwjddns0122&count_bg=%2379C83D&title_bg=%23555555&title=hits)
-
-## Github Stat!
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=wjddns0122&show_icons=true&theme=cobalt&cache_seconds=86400)
+## GitHub
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wjddns0122&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wjddns0122&layout=compact&theme=tokyonight&hide_border=true)
 
 ## BOJ
-
 [![Solved.ac Profile](https://mazassumnida.wtf/api/generate_badge?boj=jungwoon2004)](https://solved.ac/jungwoon2004)
 
-## Most Used language
+## Tech
+- Python / JavaScript / C/C++
+- Git / GitHub / VS Code
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wjddns0122&layout=compact&theme=tokyonight&cache_seconds=86400)
+## Quote
+> Consistency beats intensity.
