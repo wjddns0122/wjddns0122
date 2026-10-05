@@ -106,82 +106,82 @@
 ## Featured Projects
 
 <details>
-<summary><b>Wearless Studio</b> — AI 패션 상세페이지 생성 스튜디오 · 🏆 2026 블록체인&amp;AI 해커톤 우수상</summary>
+<summary><b>Wearless Studio</b> — AI fashion detail-page studio · 🏆 2026 Blockchain &amp; AI Hackathon, Excellence Award</summary>
 <br/>
 
-셀러가 사진 몇 장만 올리면 AI가 상세페이지 초안(이미지+카피)을 만들어 주는 스튜디오
+A studio where sellers upload a few photos and AI drafts the product detail page (images + copy).
 
 | Category | Details |
 | :--- | :--- |
-| **Team** | 팀 데일리모먼트 (2인) · 2026.06 ~ 현재 |
+| **Team** | Team DailyMoment (2 people) · 2026.06 – present |
 | **Stack** | React · FastAPI · AWS ECS/Fargate · SAM2 · OpenDID |
-| **Role** | AI 생성·판정 파이프라인, 외부 연동 3종, AWS 인프라·CI/CD |
-| **Award** | 318팀 중 3등상 — 2026 블록체인&AI 해커톤 우수상 · 상금 300만 원 |
+| **Role** | AI generation & judging pipeline, 3 external integrations, AWS infrastructure & CI/CD |
+| **Award** | Excellence Award (KISA President's Award) among 318 teams · ₩3,000,000 prize |
 
-* 셀러가 사진 몇 장만 올리면 AI가 상세페이지 초안(이미지+카피)을 만들어 주는 스튜디오를 14주간 구축·운영했습니다 (내 커밋 1,214개, Claude Code 공동작성 76.7%).
-* **318팀 중 3등상 — 2026 블록체인&AI 해커톤 우수상 · 상금 300만 원**
-* MOU 스타트업 TEENZ·Faddit 셀러에게 베타로 먼저 공개했고, FaceMarket은 인스타그램으로 직접 홍보해 실제 모델 20명의 지원을 받았습니다.
-* 팀 규모 FastAPI 엔드포인트 215개·DB 테이블 96개·프런트 모듈 19개 중 AI 생성·판정 파이프라인, 외부 연동 3종, AWS 인프라·CI/CD를 맡았습니다.
-* SAM2·Faceswap(Flux)·ComfyUI·RunPod GPU로 이어지는 AI 이미지 파이프라인 13종을 구성하고, OpenDID·OmniOne·C2PA로 이미지 출처를 검증했습니다.
-* ECS Fargate Spot 서비스 4개를 평소 0대로 줄이는 오토스케일로 비용을 낮추고, GitHub Actions(OIDC) 무중단 배포를 자동화했습니다.
+* Built and ran, over 14 weeks, a studio where sellers upload a few photos and AI drafts the detail page (images + copy) — 1,214 of my commits, 76.7% co-authored with Claude Code.
+* **Excellence Award among 318 teams — 2026 Blockchain & AI Hackathon · ₩3,000,000 prize**
+* Opened a beta first to sellers at MOU startups TEENZ and Faddit; FaceMarket drew applications from 20 real models through my own Instagram promotion.
+* Across a team-wide 215 FastAPI endpoints, 96 DB tables and 19 frontend modules, I owned the AI generation & judging pipeline, three external integrations, and the AWS infrastructure and CI/CD.
+* Built 13 AI image pipelines spanning SAM2, Faceswap (Flux), ComfyUI and RunPod GPUs, and verified image provenance with OpenDID, OmniOne and C2PA.
+* Cut cost with autoscaling that keeps four ECS Fargate Spot services at zero by default, and automated zero-downtime deploys with GitHub Actions (OIDC).
 
 **Live:** [wearless.kr](https://wearless.kr) · [ai.wearless.kr](https://ai.wearless.kr) · [facemarket.wearless.kr](https://facemarket.wearless.kr)<br/>
-**Repository:** [github.com/wjddns0122/wearless_studio](https://github.com/wjddns0122/wearless_studio) (비공개)<br/>
-**언론 보도 ▶** [ZDNet Korea](https://zdnet.co.kr/view/?no=20261003214039) · [머니투데이](https://www.mt.co.kr/tech/2026/10/02/2026100209261854163)
+**Repository:** [github.com/wjddns0122/wearless_studio](https://github.com/wjddns0122/wearless_studio) (private)<br/>
+**Press ▶** [ZDNet Korea](https://zdnet.co.kr/view/?no=20261003214039) · [Money Today](https://www.mt.co.kr/tech/2026/10/02/2026100209261854163)
 </details>
 
 <details>
-<summary><b>읽고 (Ilgo)</b> — 어려운 생활 문서를 사진 찍으면 AI가 쉽게 풀어 주는 배리어프리 앱 · 🥉 AI Re-Local 해커톤 3등 선도상</summary>
+<summary><b>Ilgo (읽고)</b> — a barrier-free app that explains hard documents in plain language · 🥉 AI Re-Local Hackathon, 3rd Prize (Leadership Award)</summary>
 <br/>
 
-고지서·안내문·문자를 사진으로 찍으면 AI가 쉬운 한국어/영어로 풀어 주는 배리어프리 서비스
+Photograph a notice, bill, or message and AI explains it in plain Korean or English.
 
 | Category | Details |
 | :--- | :--- |
-| **Team** | 팀 프로젝트 (해커톤) · 2026.06 ~ 07 · 27 커밋 |
+| **Team** | Team project (hackathon) · 2026.06 – 07 · 27 commits |
 | **Stack** | Flutter · GetX · Dio/Retrofit · freezed · TTS · Camera |
-| **Award** | AI Re-Local 해커톤(전국 5개 대학 27명) 3등 선도상 · 언론 3건 보도 |
+| **Award** | 3rd Prize (Leadership Award) at the AI Re-Local Hackathon (27 students from 5 universities) · covered by 3 news outlets |
 
-* 고지서·안내문·문자를 사진으로 찍으면 AI가 쉬운 한국어/영어로 풀어 주는 배리어프리 서비스입니다.
-* 외국인·고령자·발달장애인·저문해자를 위해 핵심 내용·기한·위험도·할 일을 카드로 정리하고 TTS 음성까지 지원했습니다.
-* Flutter(GetX·Dio/Retrofit·freezed)로 이미지 입력→AI 문서 해석→쉬운 설명 흐름을 구현했습니다.
-* AI Re-Local 해커톤(전국 5개 대학 27명)에서 3등 선도상 수상 · 언론 3건 보도.
+* A barrier-free service: photograph a notice, bill, or message and AI explains it in plain Korean or English.
+* Built for foreign workers, older adults, people with developmental disabilities, and low-literacy readers: key points, deadlines, risk signals and to-dos are organized into cards, with TTS voice output.
+* Implemented the image input → AI document reading → plain explanation flow in Flutter (GetX · Dio/Retrofit · freezed).
+* 3rd Prize (Leadership Award) at the AI Re-Local Hackathon (27 students from 5 universities) · covered by 3 news outlets.
 
 **Repository:** [github.com/wjddns0122/ilgo](https://github.com/wjddns0122/ilgo)<br/>
-**언론 보도 ▶** [한국대학신문](https://news.unn.net/news/articleView.html?idxno=594458)
+**Press ▶** [UNN (Korea University Press)](https://news.unn.net/news/articleView.html?idxno=594458)
 </details>
 
 <details>
-<summary><b>PROOV</b> — PR에 담기지 않는 기여를 동료의 증언으로 증명하는 플랫폼</summary>
+<summary><b>PROOV</b> — a platform that proves contributions PRs don't capture, through peer testimony</summary>
 <br/>
 
 | Category | Details |
 | :--- | :--- |
-| **Team** | 팀 프로젝트 (새싹) · 2026 · 76+ 커밋 |
-| **Stack** | Node.js(Express) · Prisma · JWT · Swagger · Docker · AWS EC2 |
-| **Role** | 4인 팀 백엔드 |
+| **Team** | Team project (SeSAC bootcamp) · 2026 · 76+ commits |
+| **Stack** | Node.js (Express) · Prisma · JWT · Swagger · Docker · AWS EC2 |
+| **Role** | Backend of a 4-person team |
 
-* 4인 팀에서 백엔드를 맡아 Express·Prisma 기반 서버를 설계했습니다.
-* 프로젝트·멤버·증언·스킬을 잇는 Prisma 도메인 모델 8개와 controller·service·route·middleware 레이어드 구조를 잡았습니다.
-* JWT(access·refresh) 인증, Swagger API 문서화, Gemini 연동을 구현했습니다.
-* Docker·docker-compose·PM2와 GitHub Actions CI/CD로 AWS EC2 배포를 구성했습니다.
+* Led the backend of a 4-person team and designed an Express + Prisma server.
+* Set up 8 Prisma domain models linking projects, members, testimonies and skills, with a layered controller · service · route · middleware structure.
+* Implemented JWT (access/refresh) authentication, Swagger API docs, and a Gemini integration.
+* Set up Docker, docker-compose and PM2 with GitHub Actions CI/CD for AWS EC2 deployment.
 
 **Repository:** [github.com/wjddns0122/proov-backend](https://github.com/wjddns0122/proov-backend)
 </details>
 
 <details>
-<summary><b>A&amp;I Admin Web</b> — 동아리 회원·과제·온라인 저지 관리 콘솔 (Flutter Web)</summary>
+<summary><b>A&amp;I Admin Web</b> — a Flutter Web console for club members, assignments and an online judge</summary>
 <br/>
 
 | Category | Details |
 | :--- | :--- |
-| **Team** | 동아리 프로젝트 (A&amp;I 회장) · 2026.02 ~ 05 · 93 커밋 |
-| **Stack** | Flutter Web · Riverpod · Melos 모노레포 · go_router · Dio · Firebase |
+| **Team** | Club project (A&amp;I president) · 2026.02 – 05 · 93 commits |
+| **Stack** | Flutter Web · Riverpod · Melos monorepo · go_router · Dio · Firebase |
 
-* 동아리 회원·과제·온라인 저지를 관리하는 Flutter Web 콘솔을 93 커밋으로 구축했습니다.
-* Melos 모노레포로 로직을 로컬 패키지 5개(admin_api·api_protocol·auth·course_api·oj_api)로 분리해 의존성 경계를 명확히 했습니다.
-* core/app/features 3계층·기능 모듈 6개로 클린 아키텍처를 잡고, Riverpod provider 12개·freezed 모델 34개를 코드 생성으로 자동화했습니다.
-* go_router·Dio·온라인 저지 코드 에디터를 구현하고 Firebase Hosting으로 배포했습니다.
+* Built a Flutter Web console for managing club members, assignments and an online judge in 93 commits.
+* Split the logic into 5 local packages in a Melos monorepo (admin_api · api_protocol · auth · course_api · oj_api) to make dependency boundaries explicit.
+* Set up a clean architecture with 3 layers (core/app/features) and 6 feature modules, and automated 12 Riverpod providers and 34 freezed models with code generation.
+* Implemented go_router, Dio and an online-judge code editor, and deployed with Firebase Hosting.
 
 **Repository:** [github.com/wjddns0122/A-AND-I-ADMIN-WEB](https://github.com/wjddns0122/A-AND-I-ADMIN-WEB)
 </details>
