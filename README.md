@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header Banner](https://capsule-render.vercel.app/api?type=wave&color=6F8DBF&height=250&section=header&text=wjddns0122&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=AI%20%26%20Mobile%20Product%20Engineer&descAlignY=70&descAlign=50)
+![Header Banner](https://capsule-render.vercel.app/api?type=wave&color=6F8DBF&height=250&section=header&text=wjddns0122&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=AI%20%C2%B7%20Mobile%20Product%20Engineer&descAlignY=70&descAlign=50)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=6F8DBF&center=true&vCenter=true&width=600&lines=AI+Product+Engineering;Mobile+Development+Specialist;Hackathon+Award+Winner+x2;KANANA+429+AI+Ambassador)](https://git.io/typing-svg)
 
@@ -291,7 +291,7 @@ Designed a unified data layer abstracting remote/local data sources from the UI.
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=wjddns0122&theme=tokyo-night&bg_color=121212&color=6F8DBF&line=6F8DBF&point=FFFFFF&hide_border=true)](https://github.com/wjddns0122)
+[![Contribution Graph](https://ghchart.rshah.org/6F8DBF/wjddns0122)](https://github.com/wjddns0122)
 
 </div>
 
