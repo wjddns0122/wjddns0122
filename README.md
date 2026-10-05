@@ -68,6 +68,9 @@
 ![BLoC](https://img.shields.io/badge/BLoC-121212?style=flat-square&logo=dart)
 ![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-121212?style=flat-square)
 ![MVVM](https://img.shields.io/badge/MVVM-121212?style=flat-square)
+![Zustand](https://img.shields.io/badge/Zustand-121212?style=flat-square&logo=react)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-121212?style=flat-square&logo=reactquery)
+![GetX](https://img.shields.io/badge/GetX-121212?style=flat-square&logo=flutter)
 
 **Cloud, Tooling & DevOps**<br/>
 ![AWS](https://img.shields.io/badge/AWS_ECS-121212?style=flat-square&logo=amazonwebservices)
@@ -103,80 +106,84 @@
 ## Featured Projects
 
 <details>
-<summary><b>Wearless Studio · FaceMarket — AI detail-page studio & face-license marketplace</b> 🏆 2026 블록체인&AI 해커톤 우수상</summary>
+<summary><b>Wearless Studio</b> — AI 패션 상세페이지 생성 스튜디오 · 🏆 2026 블록체인&amp;AI 해커톤 우수상</summary>
 <br/>
 
-An AI studio that turns a few clothing photos into mannequin shots and full product detail pages, plus a marketplace where real-name-verified models license their faces to sellers.
+셀러가 사진 몇 장만 올리면 AI가 상세페이지 초안(이미지+카피)을 만들어 주는 스튜디오
 
 | Category | Details |
 | :--- | :--- |
-| **Stack** | React, FastAPI, Supabase Postgres, Cloudflare R2, AWS ECS Fargate, OpenAI · Gemini, Qwen-Image-Edit + LoRA, SAM2, OpenDID, OmniOne Chain |
-| **Scale** | 4 live services ([wearless.kr](https://wearless.kr) · [ai](https://ai.wearless.kr) · [facemarket](https://facemarket.wearless.kr) · admin), 1,214 commits / 267 PRs of mine in 14 weeks |
-| **Performance** | API p50 9–20 ms · 14-cut detail page for $2.01 · workers scale to zero on Spot |
-| **Security** | Mobile-ID verification with HMAC-only CI storage, biometric data in a private bucket with purge on withdrawal, approved-device gate for the admin console |
-| **Impact** | Team **데일리모먼트** won the Excellence Award (KISA President's Award) out of 318 teams at the 2026 Blockchain & AI Hackathon |
+| **Team** | 팀 데일리모먼트 (2인) · 2026.06 ~ 현재 |
+| **Stack** | React · FastAPI · AWS ECS/Fargate · SAM2 · OpenDID |
+| **Role** | AI 생성·판정 파이프라인, 외부 연동 3종, AWS 인프라·CI/CD |
+| **Award** | 318팀 중 3등상 — 2026 블록체인&AI 해커톤 우수상 · 상금 300만 원 |
 
-**Live:** [wearless.kr](https://wearless.kr) · [ai.wearless.kr](https://ai.wearless.kr) · [facemarket.wearless.kr](https://facemarket.wearless.kr)
-**Repository:** private (team project) — walkthrough and AI retrospective available on request.
+* 셀러가 사진 몇 장만 올리면 AI가 상세페이지 초안(이미지+카피)을 만들어 주는 스튜디오를 14주간 구축·운영했습니다 (내 커밋 1,214개, Claude Code 공동작성 76.7%).
+* **318팀 중 3등상 — 2026 블록체인&AI 해커톤 우수상 · 상금 300만 원**
+* MOU 스타트업 TEENZ·Faddit 셀러에게 베타로 먼저 공개했고, FaceMarket은 인스타그램으로 직접 홍보해 실제 모델 20명의 지원을 받았습니다.
+* 팀 규모 FastAPI 엔드포인트 215개·DB 테이블 96개·프런트 모듈 19개 중 AI 생성·판정 파이프라인, 외부 연동 3종, AWS 인프라·CI/CD를 맡았습니다.
+* SAM2·Faceswap(Flux)·ComfyUI·RunPod GPU로 이어지는 AI 이미지 파이프라인 13종을 구성하고, OpenDID·OmniOne·C2PA로 이미지 출처를 검증했습니다.
+* ECS Fargate Spot 서비스 4개를 평소 0대로 줄이는 오토스케일로 비용을 낮추고, GitHub Actions(OIDC) 무중단 배포를 자동화했습니다.
 
-**Professional Overview:**
-Built the AI generation and QC pipeline backend, the real-person face-identity pipeline (person-LoRA v2→v7, face pass and head swap on GPU), the hackathon's three external integrations (mobile ID, OpenDID VC issuance, on-chain settlement), and the AWS infrastructure — including a region migration and an ALB → Cloudflare Tunnel switch. Developed with Claude Code as a daily pair (76.7% of my commits co-authored) and Codex as an adversarial reviewer.
+**Live:** [wearless.kr](https://wearless.kr) · [ai.wearless.kr](https://ai.wearless.kr) · [facemarket.wearless.kr](https://facemarket.wearless.kr)<br/>
+**Repository:** [github.com/1L-SANG/wearless_studio](https://github.com/1L-SANG/wearless_studio) (팀 저장소, 비공개)<br/>
+**언론 보도 ▶** [ZDNet Korea](https://zdnet.co.kr/view/?no=20261003214039) · [머니투데이](https://www.mt.co.kr/tech/2026/10/02/2026100209261854163)
 </details>
 
 <details>
-<summary><b>읽고 (ILGO): Barrier-free AI Document Reader</b> 🥉 AI Re-Local 해커톤 3등 선도상</summary>
+<summary><b>읽고 (Ilgo)</b> — 어려운 생활 문서를 사진 찍으면 AI가 쉽게 풀어 주는 배리어프리 앱 · 🥉 AI Re-Local 해커톤 3등 선도상</summary>
 <br/>
 
-Take a photo of a hard-to-read notice, bill, or message and AI explains it in plain Korean or English — with key dates, risk signals, and a to-do list on one screen.
+고지서·안내문·문자를 사진으로 찍으면 AI가 쉬운 한국어/영어로 풀어 주는 배리어프리 서비스
 
 | Category | Details |
 | :--- | :--- |
-| **Stack** | Flutter, Dart, flutter_tts, Spring Boot (Java), multimodal LLM |
-| **Scale** | 4-day hackathon build (Jeju, 2026.06.30 – 07.03) |
-| **Users** | Migrant workers, multicultural families, older adults, people with developmental disabilities, low-literacy readers |
-| **Impact** | 3rd Prize · Leadership Award (선도상) at the 빛나는 인재 AI Re-Local Hackathon; featured in 파이낸셜뉴스 |
+| **Team** | 팀 프로젝트 (해커톤) · 2026.06 ~ 07 · 27 커밋 |
+| **Stack** | Flutter · GetX · Dio/Retrofit · freezed · TTS · Camera |
+| **Award** | AI Re-Local 해커톤(전국 5개 대학 27명) 3등 선도상 · 언론 3건 보도 |
 
-**Repository:** [github.com/wjddns0122/ilgo](https://github.com/wjddns0122/ilgo)
+* 고지서·안내문·문자를 사진으로 찍으면 AI가 쉬운 한국어/영어로 풀어 주는 배리어프리 서비스입니다.
+* 외국인·고령자·발달장애인·저문해자를 위해 핵심 내용·기한·위험도·할 일을 카드로 정리하고 TTS 음성까지 지원했습니다.
+* Flutter(GetX·Dio/Retrofit·freezed)로 이미지 입력→AI 문서 해석→쉬운 설명 흐름을 구현했습니다.
+* AI Re-Local 해커톤(전국 5개 대학 27명)에서 3등 선도상 수상 · 언론 3건 보도.
+
+**Repository:** [github.com/wjddns0122/ilgo](https://github.com/wjddns0122/ilgo)<br/>
+**언론 보도 ▶** [한국대학신문](https://news.unn.net/news/articleView.html?idxno=594458)
 </details>
 
 <details>
-<summary><b>daype</b></summary>
+<summary><b>PROOV</b> — PR에 담기지 않는 기여를 동료의 증언으로 증명하는 플랫폼</summary>
 <br/>
-
-A scalable mobile application focusing on clean architecture, intuitive interactions, and smooth user experiences.
 
 | Category | Details |
 | :--- | :--- |
-| **Stack** | Flutter, Dart, State Management |
-| **Scale** | Agile MVP product development |
-| **Performance** | Optimized rendering pipeline and zero-jank animations |
-| **Security** | Secure data handling and local state enforcement |
-| **Impact** | Delivered a highly maintainable, shippable mobile product tailored for seamless user interaction |
+| **Team** | 팀 프로젝트 (새싹) · 2026 · 76+ 커밋 |
+| **Stack** | Node.js(Express) · Prisma · JWT · Swagger · Docker · AWS EC2 |
+| **Role** | 4인 팀 백엔드 |
 
-**Repository:** [github.com/wjddns0122/daype](https://github.com/wjddns0122/daype)
+* 4인 팀에서 백엔드를 맡아 Express·Prisma 기반 서버를 설계했습니다.
+* 프로젝트·멤버·증언·스킬을 잇는 Prisma 도메인 모델 8개와 controller·service·route·middleware 레이어드 구조를 잡았습니다.
+* JWT(access·refresh) 인증, Swagger API 문서화, Gemini 연동을 구현했습니다.
+* Docker·docker-compose·PM2와 GitHub Actions CI/CD로 AWS EC2 배포를 구성했습니다.
 
-**Professional Overview:**
-Architected the core framework to ensure high maintainability and decoupled logic. Focused heavily on building a well-structured internal codebase that is easy to improve over time, allowing for rapid iteration from idea to production.
+**Repository:** [github.com/wjddns0122/proov-backend](https://github.com/wjddns0122/proov-backend)
 </details>
 
 <details>
-<summary><b>@Daylog: AI Photo Journaling</b></summary>
+<summary><b>A&amp;I Admin Web</b> — 동아리 회원·과제·온라인 저지 관리 콘솔 (Flutter Web)</summary>
 <br/>
-
-An AI-driven personal photo journaling application integrating real-time generation models and seamless media processing workflows.
 
 | Category | Details |
 | :--- | :--- |
-| **Stack** | Dart, Flutter, Firebase App Distribution, AI Integration |
-| **Scale** | Start-up grade application with active staging pipelines |
-| **Performance** | Efficient media handling, scalable AI pipelines |
-| **Security** | Robust user authentication and secure life-log storage |
-| **Impact** | Streamlined personal life-log capturing with automated AI processing and optimized cross-platform delivery |
+| **Team** | 동아리 프로젝트 (A&amp;I 회장) · 2026.02 ~ 05 · 93 커밋 |
+| **Stack** | Flutter Web · Riverpod · Melos 모노레포 · go_router · Dio · Firebase |
 
-**Repository:** [github.com/wjddns0122/daylog](https://github.com/wjddns0122/daylog) · [Hackathon demo video](https://youtu.be/SitKBW4otTM)
+* 동아리 회원·과제·온라인 저지를 관리하는 Flutter Web 콘솔을 93 커밋으로 구축했습니다.
+* Melos 모노레포로 로직을 로컬 패키지 5개(admin_api·api_protocol·auth·course_api·oj_api)로 분리해 의존성 경계를 명확히 했습니다.
+* core/app/features 3계층·기능 모듈 6개로 클린 아키텍처를 잡고, Riverpod provider 12개·freezed 모델 34개를 코드 생성으로 자동화했습니다.
+* go_router·Dio·온라인 저지 코드 에디터를 구현하고 Firebase Hosting으로 배포했습니다.
 
-**Professional Overview:**
-Designed a unified data layer abstracting remote/local data sources from the UI. Implemented declarative routing for complex flows and utilized Firebase App Distribution to streamline the testing and deployment lifecycle.
+**Repository:** [github.com/wjddns0122/A-AND-I-ADMIN-WEB](https://github.com/wjddns0122/A-AND-I-ADMIN-WEB)
 </details>
 
 ---
