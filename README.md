@@ -126,7 +126,7 @@
 * ECS Fargate Spot 서비스 4개를 평소 0대로 줄이는 오토스케일로 비용을 낮추고, GitHub Actions(OIDC) 무중단 배포를 자동화했습니다.
 
 **Live:** [wearless.kr](https://wearless.kr) · [ai.wearless.kr](https://ai.wearless.kr) · [facemarket.wearless.kr](https://facemarket.wearless.kr)<br/>
-**Repository:** [github.com/1L-SANG/wearless_studio](https://github.com/1L-SANG/wearless_studio) (팀 저장소, 비공개)<br/>
+**Repository:** [github.com/wjddns0122/wearless_studio](https://github.com/wjddns0122/wearless_studio) (비공개)<br/>
 **언론 보도 ▶** [ZDNet Korea](https://zdnet.co.kr/view/?no=20261003214039) · [머니투데이](https://www.mt.co.kr/tech/2026/10/02/2026100209261854163)
 </details>
 
